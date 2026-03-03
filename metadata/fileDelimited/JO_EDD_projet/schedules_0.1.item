@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_MzMHQBS-EfG3bLG-WjEH2g" name="schedules" id="_My_S8BS-EfG3bLG-WjEH2g" dataPackage="_MzMuUBS-EfG3bLG-WjEH2g" Server="Localhost 127.0.0.1" FilePath="C:/Users/asmab/OneDrive/Bureau/EDD/data/schedules.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_MzMuUBS-EfG3bLG-WjEH2g" name="default" dataManager="_MzMHQBS-EfG3bLG-WjEH2g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_MzMuURS-EfG3bLG-WjEH2g" id="__xekcBS9EfG3bLG-WjEH2g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuUhS-EfG3bLG-WjEH2g" label="start_date" length="25" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuUxS-EfG3bLG-WjEH2g" label="end_date" length="25" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuVBS-EfG3bLG-WjEH2g" label="day" length="10" talendType="id_Date" pattern="&quot;yyyy-MM-dd&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuVRS-EfG3bLG-WjEH2g" label="status" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuVhS-EfG3bLG-WjEH2g" label="discipline" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuVxS-EfG3bLG-WjEH2g" label="discipline_code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuWBS-EfG3bLG-WjEH2g" label="event" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuWRS-EfG3bLG-WjEH2g" label="event_medal" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuWhS-EfG3bLG-WjEH2g" label="phase" length="33" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuWxS-EfG3bLG-WjEH2g" label="gender" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuXBS-EfG3bLG-WjEH2g" label="event_type" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuXRS-EfG3bLG-WjEH2g" label="venue" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuXhS-EfG3bLG-WjEH2g" label="venue_code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuXxS-EfG3bLG-WjEH2g" label="location_description" length="31" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuYBS-EfG3bLG-WjEH2g" label="location_code" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_MzMuYRS-EfG3bLG-WjEH2g" label="url" length="62" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

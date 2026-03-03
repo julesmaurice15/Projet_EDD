@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_BOrzABSiEfG1RcYdTp_ByA" name="Teams" dataPackage="_BOrzARSiEfG1RcYdTp_ByA" Server="Localhost 127.0.0.1" FilePath="C:/Users/asmab/OneDrive/Bureau/EDD/data/teams.csv" Format="WINDOWS" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_BOrzARSiEfG1RcYdTp_ByA" name="default" dataManager="_BOrzABSiEfG1RcYdTp_ByA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_BOrzAhSiEfG1RcYdTp_ByA" id="_TB3WMBShEfG1RcYdTp_ByA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzAxSiEfG1RcYdTp_ByA" label="code" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzBBSiEfG1RcYdTp_ByA" label="current" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzBRSiEfG1RcYdTp_ByA" label="team" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzBhSiEfG1RcYdTp_ByA" label="team_gender" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzBxSiEfG1RcYdTp_ByA" label="country_code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzCBSiEfG1RcYdTp_ByA" label="country" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzCRSiEfG1RcYdTp_ByA" label="country_long" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzChSiEfG1RcYdTp_ByA" label="discipline" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzCxSiEfG1RcYdTp_ByA" label="disciplines_code" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzDBSiEfG1RcYdTp_ByA" label="events" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzDRSiEfG1RcYdTp_ByA" label="athletes" length="87" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzDhSiEfG1RcYdTp_ByA" label="coaches" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzDxSiEfG1RcYdTp_ByA" label="athletes_codes" length="33" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzEBSiEfG1RcYdTp_ByA" label="num_athletes" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzERSiEfG1RcYdTp_ByA" label="coaches_codes" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_BOrzEhSiEfG1RcYdTp_ByA" label="num_coaches" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_BOrzExSiEfG1RcYdTp_ByA" body=""/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
